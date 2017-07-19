@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="0"
+        android:gravity="right"
+        android:textSize="80sp"
+        android:textColor="#000"
+        android:id="@+id/result"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#262626"
+        android:columnCount="4"
+        tools:context="com.calculator.app.calculator.MainActivity">
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="C"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="+/-"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="%"
+            android:textColor="#fff"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="/"
+            android:textColor="#808080"
+
+            />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="7"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="8"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="9"
+            android:textColor="#fff"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="X"
+            android:textColor="#808080"
+
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="4"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="5"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="6"
+            android:textColor="#fff"
+
+            />
+
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="-"
+            android:textColor="#808080"
+
+            />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="1"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="2"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="3"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="+"
+            android:textColor="#808080"
+
+            />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="0"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:onClick="pop"
+            android:text="."
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_rowWeight="1"
+            android:background="#262626"
+            android:text="="
+            android:textColor="#808080"
+
+            />
+
+
+    </GridLayout>
+</LinearLayout>
